@@ -6,29 +6,28 @@
 }
 
 .Counter{
-  width: auto;
+  min-width: auto;
   min-height: auto;
-  background-color: rgb(124, 119, 119);
-  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: rgb(194, 189, 189);
+  text-align: center;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 5px;
-  padding: 20px;
   font-size: 2rem;
 }
-.Buttons{
+
+.buttons{
   width: auto;
   height: auto;
   padding: 5px;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  gap: 15px;
 }
 button{
-  padding: 5px 10px;
-  min-width: 80px;
-  border-radius: 5px;
+  min-width:100px;
+  height: 25px;
   border: none;
-  background-color: lightblue;
+  border-radius: 5px;
 }
